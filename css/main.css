@@ -28,6 +28,7 @@ header p{
     display: none;
 }
 menu{
+    display: block;
     height: auto;
     background-color: var(--cor1);
 }
@@ -47,7 +48,7 @@ menu li:hover{
     border: 1px solid white;
     background-color: var(--cor2);
 }
-a{
+menu a{
     display: block;
     height: 100%;
     width: 100%;
@@ -58,11 +59,18 @@ main{
     flex-grow: 1;
 }
 footer{
+    height: 90px;
     font-weight: bolder;
     color: white;
     text-align: center;
     font-size: 1.3em;
     background-color: var(--cor1);
+}
+footer a{
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-decoration: none;
 }
 footer p{
     margin-top: 10px;
